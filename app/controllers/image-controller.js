@@ -7,7 +7,6 @@ import store from "../store.js";
 function drawImage(){
   let img = store.State.img
   document.getElementById('bg-img').style.backgroundImage = "url("+ img.toString() + ")"
-  
 }
 
 
