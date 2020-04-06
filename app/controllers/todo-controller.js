@@ -7,9 +7,12 @@ import Todo from "../models/Todo.js";
 function _drawTodos() {
   let template = ''
   let todo = store.State.todos
+  // access the todo count elem and set html to todo length
 
   todo.forEach(todos => template += todos.Template)
   document.getElementById('todos').innerHTML = template
+
+  document.getElementById('count').innerHTML = todo.length.toString()
 }
 
 
