@@ -1,6 +1,7 @@
 import TodoService from "../services/todo-service.js";
 import store from "../store.js";
 import todoService from "../services/todo-service.js";
+import Todo from "../models/Todo.js";
 
 //TODO Create the render function
 function _drawTodos() {
@@ -10,6 +11,7 @@ function _drawTodos() {
   todo.forEach(todos => template += todos.Template)
   document.getElementById('todos').innerHTML = template
 }
+
 
 export default class TodoController {
   constructor() {

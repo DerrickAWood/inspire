@@ -3,10 +3,10 @@
   font-size: 2em;
 }
 
-body{
-  background-image: url('https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzQ0OTA3MzQwNTE2NGZlYzRmY18yNjIyMjAyOV81NjM5MjI2MDA2MjkzMDJfNTIzMjMzODkyMTg5NDk2OTM0NF9uLmpwZyJdLFsicCIsInRodW1iIiwieDM5MD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/26222029_563922600629302_5232338921894969344_n.jpg');
+/* #bg-img{
+  background-image: url('//bcw-sandbox.herokuapp.com/api/images');
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
   background-size: cover;
-}
+} */

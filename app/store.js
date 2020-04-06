@@ -1,6 +1,7 @@
 import Weather from "./models/weather.js";
 import Quote from "./models/Quote.js";
 import Todo from "./models/Todo.js";
+// import Image from "./models/Image"
 
 let _state = {
   /**@type {Weather} */
@@ -11,6 +12,9 @@ let _state = {
 
   /**@type {Todo}*/
   todos: new Todo({}), //TODO change 'any' to your todo model
+
+  /**@type {Image[]}*/
+  img: [] 
 };
 
 /** Collection of listeners to be called based on keyed state changes
@@ -20,6 +24,7 @@ let _listeners = {
   weather: [],
   quote: [],
   todos: [],
+  img: []
 };
 
 /**
